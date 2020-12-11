@@ -1,4 +1,4 @@
-#ESP PWM To PPM Converter
+# ESP PWM To PPM Converter
 ### Modivation:
 This was made out of necessity I got all new drone parts but the flight controllers
 wanted a ppm signal (or sbus etc.)  The only recivers I had were old models with only pwm
@@ -9,7 +9,7 @@ As well as some of the helpful resources.
 
 If you have any feedback or sudgestions let me know.
 
-##Usage
+## Usage
 Just upload to esp 8266 and hook up the same pins as I have in the pictures / in notes on ppm
 
 REMEBER TO HAVE D4 UNPLUGGED ON UPLOAD AND BOOT or if you only need 4 pwm inputs change the top of the code to the following 
@@ -27,7 +27,7 @@ the pwm inputs are also outputed to the usb serial port so you can see them from
 
 ![Serial Demo](./imgs/serialdemo.gif)
 
-##My Setup
+## My Setup
 
 ![Reciver](./imgs/20201210_204021.jpg)
 ![esp](./imgs/20201210_204032.jpg)
